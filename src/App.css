@@ -5,3 +5,104 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+.radios_input{
+  display: none;
+}
+
+.active{
+  opacity: 1;
+}
+
+.slider_container{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin: auto;
+}
+
+.conteudo_slide{
+  min-width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
+}
+.block{
+  display: none;
+}
+
+.img_slide{
+  width: 800px;
+  height: 600px;
+  border-radius: 16px;
+  display: block;
+}
+
+.antigoSlide,
+.proximoSlide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 100%;
+  width: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform-origin: center; 
+}
+
+.antigoSlide:hover,
+.proximoSlide:hover {
+  transform: scale(1.2);
+}
+
+.antigoSlide {
+  left: 20px;
+}
+
+.proximoSlide {
+  right: 20px;
+}
+.antigoSlide:hover,
+.proximoSlide:hover{
+  transform: scale(1.2);
+}
+.antigoSlide{
+  left: 20px;
+}
+
+.proximoSlide{
+  right: 20px;
+  
+}
+
+.navegacao_manual{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.navegacao_bolinha{
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.check{
+  transition: ease-in-out;
+  background-color: white;
+}
+
+.navegacao_bolinha:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
