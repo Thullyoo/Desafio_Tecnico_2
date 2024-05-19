@@ -1,27 +1,12 @@
-# Desafio Técnico 2 
+# Desafio Estágio em Java
 
 ## Descrição
-Este projeto é uma representação de um slide de imagens. Ele foi desenvolvido utilizando React para demonstrar habilidades técnicas e criatividade no desenvolvimento web.
-
-## Como Utilizar
-
-- Acesse por : https://thullyoo.github.io/Desafio_Tecnico_2/
-
-## Ou acesse manualmente:
+Projeto utilizando conceito de Orientação a objetos em Java.
 
 ### Pré-requisitos
-- **Visual Studio Code**: Certifique-se de ter o Visual Studio Code instalado em seu sistema.
-
-### Passos para Executar
-
-1. **Clone o projeto no seu computador e execute os seguintes comandos no terminal**:
-   ```bash
-    npm install
-    ```
-    ```bash
-    npm run dev
-    ```
+- **Java 22**: Certifique-se de ter o JDK 22 instalado em seu sistema.
+- **Intellij**: Opcional, mas recomendo com IDE para executar o desafio.
 
 ## Tecnologias Utilizadas
-- React
-- CSS
+- Java 22
+
